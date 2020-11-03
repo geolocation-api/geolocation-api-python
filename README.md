@@ -15,10 +15,12 @@ pip install abstract-ip-geolocation-api
 From there you can then call the geolocationapi as follow:
 
 ```python
-import abstract-ip-geolocation-api
+# Import abstract ip geolocation api module
+import importlib
+abstract_ip_geolocation_api = importlib.import_module("abstract-ip-geolocation-api")
 
 # Initiate the geolocation api with a free API key retrieved on https://www.abstractapi.com/ip-geolocation-api
-geolocation_api = abstract-ip-geolocation-api.v1('YOUR_API_KEY')
+geolocation_api = abstract_ip_geolocation_api.v1('YOUR_API_KEY')
 
 # Fetch location data for a given IP
 # Note: If you don't provide an ip_address value, then the requester IP will be used

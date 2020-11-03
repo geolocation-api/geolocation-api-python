@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name='abstract-ip-geolocation-api',
-    version='1.0.1',
+    version='1.1.1',
     description='IP Geolocation API from Abstract to geolocate any IP',
     long_description_content_type="text/markdown",
     long_description=README,
