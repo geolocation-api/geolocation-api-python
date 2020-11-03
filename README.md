@@ -2,7 +2,7 @@
 
 Python library for Abstract free IP Geolocation API.
 
-Full documentation can be found on Abstract * [IP Geolocation API](https://www.abstractapi.com/ip-geolocation-api) page.
+Full documentation can be found on Abstract [IP Geolocation API](https://www.abstractapi.com/ip-geolocation-api) page.
 
 ## Getting started
 
