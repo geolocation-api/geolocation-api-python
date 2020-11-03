@@ -6,16 +6,16 @@ Full documentation can be found on Abstract [IP Geolocation API](https://www.abs
 
 ## Getting started
 
-Getting started with Abstract IP Geolocation API is very simple, you just need to import the library into your project as follow:
+Getting started with Abstract IP Geolocation API is very simple, you just need to install the library into your project as follow:
 
 ```python
-import geolocationapi
+pip install geolocation-api
 ```
 
 From there you can then call the geolocationapi as follow:
 
 ```python
-import geolocationapi
+import geolocation-api
 
 # Initiate the geolocation api with a free API key retrieved on https://www.abstractapi.com/ip-geolocation-api
 geolocation_api = geolocationapi.v1('YOUR_API_KEY')

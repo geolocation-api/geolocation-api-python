@@ -4,7 +4,7 @@ with open('README.md') as readme_file:
     README = readme_file.read()
 
 setup_args = dict(
-    name='geolocationapi',
+    name='geolocation-api',
     version='1.0.0',
     description='IP Geolocation API from Abstract to geolocate any IP',
     long_description_content_type="text/markdown",
@@ -15,7 +15,7 @@ setup_args = dict(
     author_email='eric@abstractapi.com',
     keywords=['IP geolocation', 'IP address', 'IP geolocation API'],
     url='https://github.com/geolocation-api/geolocation-api-python/',
-    download_url='https://pypi.org/project/geolocation-api-python/'
+    download_url='https://pypi.org/project/geolocation-api/'
 )
 
 install_requires = []
