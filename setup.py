@@ -13,7 +13,7 @@ setup_args = dict(
     packages=find_packages(),
     author='Eric Barns',
     author_email='eric@abstractapi.com',
-    keywords=['IP geolocation', 'IP address', 'IP geolocation API'],
+    keywords=['IP geolocation', 'IP address', 'IP geolocation API', 'geolocation', 'ip location', 'geocoding'],
     url='https://github.com/geolocation-api/ip-geolocation-api-python/',
     download_url='https://pypi.org/project/ip-geolocation-api/'
 )
